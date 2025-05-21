@@ -1,5 +1,5 @@
 import axios from 'axios';
-const api = axios.create({ baseURL: '/api' });
+const api = axios.create({ baseURL: 'https://vue-backend-woad.vercel.app' });
 export interface Writer {
     id: number; nombre: string; apellido: string;
     nacionalidad: string; edad: number; books: any[];
